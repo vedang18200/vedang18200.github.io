@@ -22,7 +22,7 @@ const DATA={
   {name:"LexConnect",hook:"A legal aid platform I built end to end.",status:"Built, not currently live",
    blurb:"Lawyers manage their cases, and citizens register requests for a lawyer. I built the frontend, backend and AI integration myself, to showcase my backend and AI skills. It isn’t live right now.",
    hl:["Case files, hearing dates, appointment requests and scheduling","Real-time chat between lawyer and client over WebSockets","Earnings tracker for lawyers, plus a ChatGPT-powered assistant that explains basic rights under the Indian Constitution"],
-   tags:["FastAPI","SQLAlchemy","Alembic","PostgreSQL","WebSockets","Next.js","OpenAI"],links:[{t:"Backend code",u:"https://github.com/vedang18200/Lexconnect-backend"},{t:"Frontend code [frontend repo URL]"}]},
+   tags:["FastAPI","SQLAlchemy","Alembic","PostgreSQL","WebSockets","Next.js","OpenAI"],links:[{t:"Backend code",u:"https://github.com/vedang18200/Lexconnect-backend"},{t:"Frontend code",u:"https://github.com/vedang18200/Lexconnect-frontend.git"}]},
   {name:"Ticket Booking System",hook:"1,000 people, 50 seats, zero double-bookings.",status:"In progress",
    blurb:"An event-driven booking backend in Go and GraphQL, built around one hard problem: many users booking the same seat at once. PostgreSQL decides seat ownership, Redis handles short-lived seat holds, and RabbitMQ workers handle payment, notifications and QR tickets. I’ll publish results once I’ve measured them.",
    hl:["Done: schema and migrations, JWT auth with a @hasRole schema directive","Done: a naive baseline and a k6 stampede test","Next: the concurrency fix (unique index + Redis hold), workers and CI"],
